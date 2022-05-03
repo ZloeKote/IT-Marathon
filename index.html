@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CatGames</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/javascript.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-bar">
+            <div class="nav-bar-wrapper">
+                <div class="nav-logo-wrapper">
+                    <a href="#" class="nav-link"><i class="nav-logo"></i></a>
+                    <a href="#" class="nav-link"><span class="nav-title">CatGames</span></a>
+                </div>
+                <div class="nav-menu-wrapper">
+                    <a href="#" class="nav-link"><span class="nav-menu-item">Про нас</span></a>
+                    <a href="#" class="nav-link"><span class="nav-menu-item">Купуй ігри</span></a>
+                    <a href="#" class="nav-link"><span class="nav-menu-item">😜</span></a>
+                </div>
+                <div class="menu-markup">
+                    <div class="menu-button-wrapper">
+                        <div class="menu-button"></div>
+                    </div>
+                    <div class="opened-menu">
+                        <a href="#" class="opened-menu-link"><span class="opened-menu-item">Про нас</span></a>
+                        <a href="#" class="opened-menu-link"><span class="opened-menu-item">Купуй ігри</span></a>
+                        <a href="#" class="opened-menu-link"><span class="opened-menu-item">😜</span></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-wrapper">
+        <section class="registration-section">
+            <div class="registration-form-wrapper">
+                <div class="registration-form-image">
+                    <img src="./img/boycat_c.png" alt="Lovely cat" id="main-img">
+                    <span class="title-under-image">CatGames</span>
+                </div>
+                
+                <div class="form-card">
+                    <div class="form-wrapper">
+                        <h2 class="form-title">Реєстрація на безкоштовне отримання ключу від гри</h2>
+                        <div class="registration-form">
+                            <form action="submit" class="registration-form">
+                                <label for="name" class="label-nickname">Ім'я або нікнейм</label>
+                                <input type="text" class="form-input" placeholder="Введіть ім'я" required>
+
+                                <label for="email" class="label-email">Електронна пошта</label>
+                                <input type="email" class="form-input" placeholder="Введіть пошту" required>
+
+                                <label for="game" class="label-game">Гра</label>
+                                <select name="" id="select-game" class="form-input form-select" required>
+                                    <option value="">Обери гру</option>
+                                    <option value="dota 2">Dota 2</option>
+                                    <option value="csgo">CS:GO</option>
+                                    <option value="brawlhalla">Brawlhalla</option>
+                                </select>
+                                <a href='#' class="add-text"></a>
+                                
+                                <label for="pet" class="label-pet" id="title-pet">Улюблена тварина</label>
+                                <select class="form-input form-select" name="" id="select-pet" required>
+                                    <option value="cat">Кіт</option>
+                                    <option value="dog">Собака</option>
+                                    <option value="other">Інша</option>
+                                </select>
+
+                                <button class="form-button" type="submit">Отримати</button>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </section>
+    </div>
+    
+    <footer class="footer">
+        <span class="footer-credentials">
+            Copyright © 2022 CatGames. Всі права захищені.
+        </span>
+    </footer>
+    
+</body>
+</html>
